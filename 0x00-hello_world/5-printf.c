@@ -6,11 +6,8 @@
 
 /**
  *
- *  main - Entry point
- *
- * 
- *
- *  Return: Always 0 (Success)
+ * main - Entry point
+ * Return: Always 0 (Success)
  *
  */
 
