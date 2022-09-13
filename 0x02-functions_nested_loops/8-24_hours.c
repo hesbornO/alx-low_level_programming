@@ -1,38 +1,27 @@
 #include "main.h"
+
 /**
- * times_table - prints the times table of an integer starting with zero
+ * jack_bauer - prints every minute of the day of Jack Bauer
+ *   
  * Return: Always 0.
  */
 
-void times_table(void)
+void jack_bauer(void)
 {
-	int x, y, product;
+	int hr;
+	int min;
 
-	for (x = 0; x <= 9; x++)
+
+	for (hr = 0; hr < 24; hr++)
 	{
-		for (y = 0; y <= 9; y++)
+		for (min = 0; min < 60; min++)
 		{
-			product = x * y;
-			if (y != 0)
-			{
-				_putchar(',');
-				_putchar(' ');
-			}
-													if (y == 0)
-			{
-				_putchar('0');
-			}
-			else if (product >= 10)
-			{
-				_putchar((product / 10) + '0');
-				_putchar((product % 10) + '0');
-			}
-			else if ((product < 10) && (y != 0))
-			{
-				_putchar(' ');
-				_putchar((product % 10) + '0');
-			}
-		}
-		_putchar('\n');
-	}
+			_putchar((hr / 10) + '0');
+			_putchar((hr % 10) + '0');
+			_putchar(':');
+			_putchar((min / 10) + '0');
+			_putchar((min % 10) + '0');
+			_putchar('\n');
+																																	}
+										}
 }
