@@ -5,7 +5,6 @@
  * Always return 0 (Success)
  *
  */
-
 int _islower(int c)
 {
 
