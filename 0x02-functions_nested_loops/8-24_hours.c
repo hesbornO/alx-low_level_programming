@@ -2,7 +2,6 @@
 
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
- *   
  * Return: Always 0.
  */
 
