@@ -10,7 +10,8 @@ int main(void)
     int n;
 
     n = 402;
-    int *int_pointer=&n;
+    int *int_pointer;
+    int_pointer=&n;
     reset_to_98(*int_pointer);
     return (0);
 }
